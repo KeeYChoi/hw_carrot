@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Danngn_Jiin2</title>
+    <style>
+        #fixed-bar {
+            width: 100%;
+            background-color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+        .fixed-bar-box-shadow {
+            box-sizing: border-box;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+        }
+        #fixed-bar #fixed-bar-wrap #fixed-bar-search {
+            position: absolute;
+            left: 152px;
+            top: 16px;
+            border-radius: 5px;
+            border: solid 1px #e9ecef;
+            text-decoration: none;
+            padding: 0 1.6rem;
+            height: 40px;
+            box-sizing: border-box;
+        }
+        #home-main-section-top {
+            margin-top: 72px;
+            padding-top: 24px;
+            background-color: black;
+        }
+    </style>
+  </head>
+  <body>
+        <div class="container">
+            <header id="fixed-bar" class="fixed-bar-box-shadow">
+                <div id="fixed-bar-wrap">
+                    <h1 id="fixed-bar-logo-title">
+                        <a href="https://www.daangn.com/">
+                            <img class="fixed-logo" alt="당근마켓" src="logo.svg"/>
+                        </a>
+                    </h1>
+                    <section id="fixed-bar-search">
+                        <div class="search-input-wrap">
+                            <span class="sr-only">검색</span>
+                            <input type="text" name="header-search-input" id="header-search-input" class="fixed-search-input" placeholder="검색해보시오~^">
+                            <button id="header-search-button">
+                                <img class="fixed-search-icon" alt="Search" src="search.svg">
+                            </button>
+                        </div>
+                    </section>
+                    <section id="fixed-bar-download">
+                        <h3 class="hide">다운로드</h3>
+                        <a target="_blank" class="fixed-download-button" id="header-download-button-ios" href="https://apps.apple.com/kr/app/pangyojangteo/id1018769995?l=ko&ls=1">
+                            <img class="fixed-apple-store" alt="App Store" src="apple.svg">
+                            <div class="fixed-download-text">App Store</div>
+                        </a>
+                        <a target="_blank" class="fixed-download-button" id="header-download-button-android" href="https://play.google.com/store/apps/details?id=com.towneers.www">
+                            <img class="fixed-google-play" alt="App Store" src="google.svg">
+                            <div class="fixed-download-text">Google Play</div>
+                        </a>
+                    </section>
+                </div>
+            </header>
+            <section id="home-main-section-top">
+                <div id="home-main-top">
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
